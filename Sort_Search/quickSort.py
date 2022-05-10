@@ -9,7 +9,9 @@ def partition(arr, low, high):
       # increment index of smaller element
       i = i+1
       arr[i], arr[j] = arr[j], arr[i]
+
   arr[i+1], arr[high] = arr[high], arr[i+1]
+
   return (i+1)
 
 def quickSort(arr, low, high):
@@ -29,6 +31,7 @@ def quickSort(arr, low, high):
 arr = [10, 80, 30, 90, 40,50,70]
 arr = [34,8,64,51, 32,21,10,25,9,36]
 arr = [5,20,2,33,45]
+arr = [35,33,42,10,14,11,27,44,26,31]
 n = len(arr)
 quickSort(arr, 0, n-1)
 print("Sorted array is:")
