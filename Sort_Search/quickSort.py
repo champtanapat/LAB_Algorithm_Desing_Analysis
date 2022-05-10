@@ -27,6 +27,8 @@ def quickSort(arr, low, high):
 
 #arr = [10, 7, 8, 9, 1, 5]
 arr = [10, 80, 30, 90, 40,50,70]
+arr = [34,8,64,51, 32,21,10,25,9,36]
+arr = [5,20,2,33,45]
 n = len(arr)
 quickSort(arr, 0, n-1)
 print("Sorted array is:")

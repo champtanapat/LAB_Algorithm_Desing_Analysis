@@ -36,6 +36,7 @@ data = [12, 11, 13, 5, 6, 7]
 data = [21, 38, 29, 17, 4, 25,32,9]
 #data = [2,6,5,1,7,4,3]
 #data = [40,10,30,25,20]
+data = [2,4,1,6,8,5,3,7]
 print("Merge Sort")
 mergeSort(data)
 print("Sorted array is: ", end="\n")

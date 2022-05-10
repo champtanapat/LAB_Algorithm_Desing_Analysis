@@ -120,8 +120,10 @@ class LinkedList:
 
 if __name__ == '__main__':
   ll = LinkedList()
-  ll.insert_values(["banana","mango","grapes","orange"])
+  #ll.insert_values(["banana","mango","grapes","orange"])
+  ll.insert_values([0,5,10])
   ll.print() 
+  ll.insert_at(2,9)
   #ll.insert_at_end("champ")
   ll.insert_at_begining(20) 
   #ll.insert_at(2,"test") 

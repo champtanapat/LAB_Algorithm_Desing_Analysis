@@ -10,8 +10,13 @@ def binary_search(arr, low, high, x):
   else:
     return -1
 data  = [10,14, 27, 27, 35]
-size = len(data)
-print('Binary Search:')
-print(binary_search(data,0,5,10))
-print(binary_search(data,0,5,35))
+
+# size = len(data)
+# print('Binary Search:')
+# print(binary_search(data,0,5,10))
+# print(binary_search(data,0,5,35))
+
+data  = [10,14, 19, 26, 27,31,33,35,42,44]
+x = 42
+print(binary_search(data,0,9,x))
 
